@@ -1,0 +1,123 @@
+
+/*
+Template Name: orcaobra
+Author: FH
+Version: 1.0
+*/
+
+/* BODY */
+body {
+	font-size:14px;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+/* HEADER */
+.topo {
+    padding-top: 50px;
+}
+
+/*LOGO*/
+.logo{
+    text-align:center;
+    padding-bottom:20px;
+}
+
+/*FORMULÁRIO*/
+.form-login{
+    text-align:center;
+}
+
+#login-field{
+    border: 0px solid #ccc;
+    margin: 5px;
+    padding: 5px;
+}
+
+#form-user{
+    padding-left: 5px;
+}
+
+#form-pass{
+    padding-left: 5px;
+}
+
+#forgot-pass a{
+    font-size:12px;
+    color:#ca6400;
+    text-decoration:none;
+}
+
+#forgot-pass a:hover{
+    text-decoration:underline;
+}
+
+#register-new a{
+    font-size:12px;
+    color:#ca6400;
+    text-decoration:none;
+}
+
+#register-new a:hover{
+    text-decoration:underline;
+}
+
+/*ESCOLHER TIPO REGISTRO*/
+#register-type a{
+    font-size:12px;
+    color:#ca6400;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+#register-type a:hover{
+    text-decoration:underline;
+}
+
+/*REGISTER USER/COMPANY*/
+fieldset{margin:0;padding:0;}
+
+.register{
+    width:auto;
+}
+
+#reg-message{
+    text-align:center !important;
+}
+
+#reg-title{
+    font-weight: bold;
+}
+
+/*REGISTER FORM*/
+.reg-form{
+    text-align:center;
+    margin: 0 auto;
+    width: 612px;
+}
+
+#reg-personal{
+    margin: 0 auto;
+    padding: 5px;
+    width: 600px;
+    border: 1px solid #ccc;
+}
+
+.reg-table{
+    border: 0px solid #ccc;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.reg-end{
+    text-align: right;
+}
+
+/*FOOTER*/
+.footer {
+    font-size:12px;
+	text-align:center;
+	color:#2e2e2e;
+    margin-top:10px;
+    padding-bottom:50px;
+    font-weight: lighter;
+}
