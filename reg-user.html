@@ -41,7 +41,7 @@
         <form method="get" id="infos" action="register">
 
         <!-- DADOS PESSOAIS -->
-        <fieldset id="reg-personal"><legend id="reg-title">Dados Pessoais:</legend>
+        <fieldset id="reg-personal"><legend id="reg-title">|- Dados Pessoais:</legend>
             <table class="reg-table">
                 <tr>
                     <td><label for="nome">Nome completo:</label></td>
@@ -129,10 +129,10 @@
             </table>
         </fieldset>
         <!-- /DADOS PESSOAIS -->
-            <p />
+            <p /><br />
             <!-- DADOS PROFISSIONAIS -->
             <fieldset id="reg-personal">
-                <legend id="reg-title">Dados Profissionais:</legend>
+                <legend id="reg-title">|- Dados Profissionais:</legend>
                 <table class="reg-table">
                     <tr>
                         <td><label for="profissao">Profissão:</label></td>
@@ -153,6 +153,29 @@
                 </table>
             </fieldset>
             <!-- /DADOS PROFISSIONAIS -->
+
+            <p /><br />
+            <!-- LOGIN -->
+            <fieldset id="reg-personal">
+                <legend id="reg-title">|- Dados de Acesso</legend>
+                <table class="reg-table">
+                    <tr>
+                        <td><label for="nobras">Usuário:</label></td>
+                        <td><input id="form-user" name="login" type="text" size="16" maxlength="32" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="form-pass">Senha:</label></td>
+                        <td><input id="form-pass" name="login" type="password" size="16" maxlength="32" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="form-pass">Repetir Senha:</label></td>
+                        <td><input id="form-pass" name="login" type="password" size="16" maxlength="32" /></td>
+                    </tr>
+                </table>
+
+            </fieldset>
+            <!-- /LOGIN -->
+
 
         </p> <div class="reg-end">
             <input type="submit" class="botao" id="button" value="Finalizar cadastro >" />

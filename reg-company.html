@@ -41,7 +41,7 @@
         <form method="get" id="infos" action="register">
 
         <!-- DADOS DA EMPRESA -->
-        <fieldset id="reg-personal"><legend id="reg-title">Dados da Empresa</legend>
+        <fieldset id="reg-personal"><legend id="reg-title">|- Dados da Empresa</legend>
             <table class="reg-table">
                 <tr>
                     <td><label for="nfantasia">Nome Fantasia:</label></td>
@@ -120,12 +120,12 @@
             </table>
         </fieldset>
         <!-- /DADOS PESSOAIS -->
-            <p />
+            <p /><br />
         <!-- OUTRAS INFORMAÇÕES -->
-        <fieldset id="reg-personal"><legend id="reg-title">Outras informações</legend>
+        <fieldset id="reg-personal"><legend id="reg-title">|- Outras informações</legend>
             <table class="reg-table">
                 <tr>
-                    <td><label for="range">Raio de Atuação</label></td>
+                    <td><label for="range">Raio de Atuação:</label></td>
                     <td><select name="range">
                             <option value="estado">Selecione o Raio de Atuação</option>
                             <option value="ac">Até 100 Km</option>
@@ -147,6 +147,28 @@
 
         </fieldset>
         <!-- /OUTRAS INFORMAÇÕES -->
+            <p /><br />
+        <!-- LOGIN -->
+            <fieldset id="reg-personal">
+                <legend id="reg-title">|- Dados de Acesso</legend>
+                <table class="reg-table">
+                    <tr>
+                        <td><label for="nobras">Usuário:</label></td>
+                        <td><input id="form-user" name="login" type="text" size="16" maxlength="32"/></td>
+                    </tr>
+                    <tr>
+                        <td><label for="form-pass">Senha:</label></td>
+                        <td><input id="form-pass" name="login" type="password" size="16" maxlength="32"/></td>
+                    </tr>
+                    <tr>
+                        <td><label for="form-pass">Repetir Senha:</label></td>
+                        <td><input id="form-pass" name="login" type="password" size="16" maxlength="32"/></td>
+                    </tr>
+                </table>
+
+            </fieldset>
+        <!-- /LOGIN -->
+
 
         </p> <div class="reg-end">
             <input type="submit" class="botao" id="button" value="Finalizar cadastro >" />
